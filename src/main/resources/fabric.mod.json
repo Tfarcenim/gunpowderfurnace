@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "blastprocessing",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Blast Processing",
+  "description": "Add gunpowder and gunpowder blocks as a furnace fuel, comes with an explosive surprise",
   "authors": [
     "Tfarecnim"
   ],
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "tfar.example.ExampleMod"
+      "tfar.blastprocessing.ExampleMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "blastprocessing.mixins.json"
   ],
 
   "depends": {

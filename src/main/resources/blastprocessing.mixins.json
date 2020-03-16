@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "tfar.blastprocessing.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "AbstractFurnaceBlockEntityMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
